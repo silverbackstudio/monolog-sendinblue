@@ -1,0 +1,17 @@
+{
+    "name": "silverbackstudio/monolog-sendinblue",
+    "description": "Send logs via Sendinblue Account",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "authors": [
+        {
+            "name": "Brando Meniconi",
+            "email": "b.meniconi@silverbackstudio.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Svbk\\Monolog\\Sendinblue\\": "src/"}
+    }
+}
